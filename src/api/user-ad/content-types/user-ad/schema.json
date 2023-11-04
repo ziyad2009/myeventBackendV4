@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_ads",
+  "info": {
+    "singularName": "user-ad",
+    "pluralName": "user-ads",
+    "displayName": "User_Ad"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "gps_long": {
+      "type": "string"
+    },
+    "gps_lat": {
+      "type": "string"
+    },
+    "postetd_date": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "seller_id": {
+      "type": "string"
+    },
+    "add_statuse": {
+      "type": "string"
+    }
+  }
+}
